@@ -53,12 +53,17 @@ nav {
 }
 .logo {
     margin-right: auto;
+    margin-left: 3em;
     font-Family: 'Monda', Sans-Serif;
-    font-size: 1.8em;
+    font-size: 2em;
     letter-spacing: .05em;
     line-height: .9;
 }
+.menu {
+    margin-right: 10em;
+}
 li {
+    margin-right: 4em;
     display: inline-flex;
     justify-content: space-around;
     padding-left: 2em;
@@ -66,7 +71,15 @@ li {
 }
 li a {
     color: var(--txt-clr-100);
+    letter-spacing: .2em;
     text-decoration: none;
+    font-size: 1.3em;
+}
+li a:hover {
+    color: var(--header-clr);
+    font-size: 1.4em;
+    background-color: none;
+    box-shadow: rgb(114, 115, 116) 0px 20px 30px -10px;
 }
 /* Hero */
 .hero-container {
@@ -95,7 +108,7 @@ span {
     max-width: 55ch;
 }
 button {
-    background-color: var(--accent-clr);
+    background-color: var(--header-clr);
     color: var(--txt-clr-100);
     text-transform: uppercase;
     font-size: 1em;
@@ -103,6 +116,10 @@ button {
     padding: .8em;
     border-radius: 10px;
     border: none;
+}
+button:hover {
+    background-color: var(--accent-clr);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 /* TESTIMONIALS */
 .testimonial-container {
