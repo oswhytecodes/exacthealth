@@ -51,7 +51,6 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: baseline;
-    
 }
 .logo {
     margin-right: auto;
@@ -65,7 +64,6 @@ li {
     justify-content: space-around;
     padding-left: 2em;
     list-style: none;
-
 }
 li a {
     color: var(--txt-clr-100);
@@ -81,11 +79,10 @@ li a {
     width: 100%;
 }
 .hero-text {
-    padding: 4em 0em 10em 4em;
-   
+    max-width: fit-content;
+    padding: 5em 0em 10em 4em;
 }
 span {
-    
     font-size: smaller;
 }
 /* Information */
@@ -110,13 +107,13 @@ button {
 }
 /* TESTIMONIALS */
 .testimonial-container {
-    padding: 1.5em;
+    padding: 1em;
     margin: 0 auto;
 }
 .testimonial-grid {
     margin: 0 auto;
     padding: 1em;
-    max-width: 70%;
+    
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -153,6 +150,7 @@ footer {
     background-color: var(--accent-clr);
     color: var(--txt-clr-100);
     display: flex;
+    padding: 1em;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-around;
