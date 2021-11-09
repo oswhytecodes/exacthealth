@@ -3,7 +3,6 @@
     --txt-clr-200: #dcdea0;
     --accent-clr: #708f46;
     --header-clr: #273527;
-
 }
 *,
 *::after,
@@ -113,7 +112,6 @@ button {
 .testimonial-grid {
     margin: 0 auto;
     padding: 1em;
-    
     text-align: center;
     display: flex;
     flex-wrap: wrap;
