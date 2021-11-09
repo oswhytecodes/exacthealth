@@ -29,7 +29,11 @@ h1 {
     color: var(--txt-clr-100);
 }
 h2 {
+    margin: 1.2em auto;
+    padding-bottom: .08em;
     font-Family: 'Julius Sans One', Sans-Serif;
+    border-bottom: .05em solid black;
+    max-width: fit-content;
     color: var(--header-clr);
     font-size: 2.3rem;
     font-weight: bolder;
@@ -39,27 +43,29 @@ h2 {
 /* Header */
 header {
     width: 100vw;
-    padding: 1em;
+    padding: 1em 2em;
     background-color: var(--accent-clr);
 }
 nav {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     align-items: baseline;
+    
 }
 .logo {
+    margin-right: auto;
     font-Family: 'Monda', Sans-Serif;
     font-size: 1.8em;
     letter-spacing: .05em;
     line-height: .9;
 }
-.menu {
-    justify-content: flex-end;
-}
 li {
     display: inline-flex;
+    justify-content: space-around;
     padding-left: 2em;
     list-style: none;
+
 }
 li a {
     color: var(--txt-clr-100);
@@ -76,10 +82,11 @@ li a {
 }
 .hero-text {
     padding: 4em 0em 10em 4em;
+   
 }
-.hero-text p {
-    font-size: 2em;
-    color: var(--txt-clr-100);
+span {
+    
+    font-size: smaller;
 }
 /* Information */
 .container {
@@ -96,6 +103,7 @@ button {
     color: var(--txt-clr-100);
     text-transform: uppercase;
     font-size: 1em;
+    margin-top: .5em;
     padding: .8em;
     border-radius: 10px;
     border: none;
@@ -108,16 +116,16 @@ button {
 .testimonial-grid {
     margin: 0 auto;
     padding: 1em;
-    max-width: 60%;
+    max-width: 70%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 .card {
-    max-width: 10em;
-
+    max-width: 18em;
+    padding: 1.2em;
 }
 .img-grid {
     width: 150px;
