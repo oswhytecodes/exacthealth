@@ -60,10 +60,10 @@ nav {
     line-height: .9;
 }
 .menu {
-    margin-right: 5em;
+    margin-right: 1em;
 }
 li {
-    margin-right: 2em;
+    margin-right: 1em;
     display: inline-flex;
     justify-content: space-around;
     padding-left: 1.8em;
@@ -83,7 +83,8 @@ li a:hover {
 }
 /* Hero */
 .hero-container {
-    margin: .1em auto;
+    margin: 0em auto;
+
     background-image: url(images/hero2.jpg);
     background-position: center;
     background-size: cover;
