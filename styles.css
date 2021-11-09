@@ -1,0 +1,135 @@
+:root {
+    --txt-clr-100: #fefeff;
+    --txt-clr-200: #dcdea0;
+    --accent-clr: #708f46;
+    --header-clr: #273527;
+
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-Family: 'Monda', Sans-Serif;
+}
+p {
+    font-Family: 'Monda', Sans-Serif;
+}
+h1 {
+    font-Family: 'Monda', Sans-Serif;
+    font-size: 3.1rem;
+    line-height: 1;
+    color: var(--txt-clr-100);
+}
+h2 {
+    font-Family: 'Julius Sans One', Sans-Serif;
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 1em;
+    background-color: var(--accent-clr);
+}
+.logo {
+    font-Family: 'Monda', Sans-Serif;
+    font-size: 3em;
+    letter-spacing: .05em;
+    line-height: .9;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+li {
+    display: inline-flex;
+    padding-left: 2em;
+    justify-content: space-between;
+    list-style: none;
+}
+li a {
+    color: var(--txt-clr-100);
+    text-decoration: none;
+}
+/* Hero */
+.hero-container {
+    margin: 0 auto;
+    background-image: url(images/hero2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.hero-text {
+    padding: 4em 0em 10em 4em;
+}
+.hero-text p {
+    font-size: 2em;
+    color: var(--txt-clr-100);
+}
+/* Information */
+.container {
+    padding: 1em;
+    background-color: var(--txt-clr-200);
+    text-align: center;
+}
+.info-container {
+    margin: 0 auto;
+    max-width: 40%;
+}
+/* TESTIMONIALS */
+.testimonial-container {
+    padding: 1.5em;
+    margin: 0 auto;
+}
+.testimonial-grid {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 60%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card {
+    max-width: 10em;
+
+}
+.img-grid {
+    width: 150px;
+    border-radius: 50%;
+}
+/* SERVICES */
+.services-container {
+    padding-top: 1.5em;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: var(--txt-clr-200);
+}
+.services-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: .4em;
+}
+.services {
+    padding: 0em 2em 2em 2em;
+    max-width: 25em;
+}
+/* FOOTER */
+footer {
+    background-color: var(--accent-clr);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
