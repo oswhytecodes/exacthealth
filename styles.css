@@ -60,20 +60,20 @@ nav {
     line-height: .9;
 }
 .menu {
-    margin-right: 10em;
+    margin-right: 5em;
 }
 li {
-    margin-right: 4em;
+    margin-right: 2em;
     display: inline-flex;
     justify-content: space-around;
-    padding-left: 2em;
+    padding-left: 1.8em;
     list-style: none;
 }
 li a {
     color: var(--txt-clr-100);
-    letter-spacing: .2em;
     text-decoration: none;
     font-size: 1.3em;
+    letter-spacing: .2em;
 }
 li a:hover {
     color: var(--header-clr);
@@ -83,7 +83,7 @@ li a:hover {
 }
 /* Hero */
 .hero-container {
-    margin: 0 auto;
+    margin: .1em auto;
     background-image: url(images/hero2.jpg);
     background-position: center;
     background-size: cover;
@@ -162,8 +162,10 @@ button:hover {
 }
 /* FOOTER */
 footer {
-    background-color: var(--accent-clr);
+    background-color: var(--header-clr);
     color: var(--txt-clr-100);
+    font-size: 1.3em;
+    letter-spacing: .2em;
     display: flex;
     padding: 1em;
     flex-wrap: wrap;
